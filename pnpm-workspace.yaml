@@ -1,0 +1,5 @@
+allowBuilds:
+  vnu-jar: false
+minimumReleaseAgeExclude:
+  - happy-dom
+  - vnu-jar
