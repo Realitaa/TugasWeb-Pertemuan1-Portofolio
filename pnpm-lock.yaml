@@ -14,6 +14,9 @@ importers:
       vitest:
         specifier: ^4.1.11
         version: 4.1.11(@types/node@26.4.0)(happy-dom@20.12.0)(vite@8.2.2(@types/node@26.4.0))
+      vnu-jar:
+        specifier: ^26.8.30
+        version: 26.8.30
 
 packages:
 
@@ -443,6 +446,11 @@ packages:
       jsdom:
         optional: true
 
+  vnu-jar@26.8.30:
+    resolution: {integrity: sha512-M+m1H4/3lkBQGBFqmLpCB9nf7/4+Zqb4di0kNEwJ130vsyR2R/E8fULkL1IO9+TA3LwS8Dto07TT8ACzkXwNog==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   whatwg-mimetype@3.0.0:
     resolution: {integrity: sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==}
     engines: {node: '>=12'}
@@ -770,6 +778,8 @@ snapshots:
       happy-dom: 20.12.0
     transitivePeerDependencies:
       - msw
+
+  vnu-jar@26.8.30: {}
 
   whatwg-mimetype@3.0.0: {}
 
