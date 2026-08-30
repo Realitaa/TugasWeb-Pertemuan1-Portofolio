@@ -1,6 +1,10 @@
 # Landing Page Pribadi
 
-Landing page pribadi sederhana yang dibuat menggunakan **HTML5 murni** sebagai tugas mata kuliah Web. Website live di: https://portofolio-web.realitaa.dev
+**Automated Checks:** ![Tests](https://github.com/Realitaa/TugasWeb-Pertemuan1-Portofolio/actions/workflows/test.yml/badge.svg)
+
+Landing page pribadi sederhana yang dibuat menggunakan **HTML5 murni** sebagai tugas mata kuliah Web.
+
+Website live: [portofolio-web.realitaa.dev](https://portofolio-web.realitaa.dev)
 
 Proyek ini berfokus pada penerapan struktur HTML semantik, accessibility dasar, formulir HTML5, SEO/meta tags, serta validasi dokumen HTML.
 
@@ -27,7 +31,7 @@ Halaman terdiri dari beberapa bagian utama:
 - **Navigation** — navigasi menuju setiap bagian halaman
 - **Tentang Saya** — informasi singkat dan profil
 - **Keahlian** — daftar kemampuan frontend, backend, dan teknologi lain
-- **Proyek** — contoh proyek yang dapat diganti dengan proyek pribadi
+- **Proyek** — daftar proyek
 - **Pendidikan** — informasi pendidikan
 - **Kontak** — formulir kontak HTML5
 - **Footer** — informasi copyright dan kontak
@@ -47,6 +51,8 @@ Tidak terdapat framework frontend, CSS framework, maupun JavaScript runtime pada
 
 Proyek menggunakan **Vitest** dan **Happy DOM** untuk melakukan automated testing terhadap struktur dan requirement halaman.
 
+Setiap `push` dan `pull request` secara otomatis menjalankan GitHub Actions dan melakukan seluruh quality check.
+
 Test mencakup:
 
 - Semantic HTML
@@ -63,7 +69,7 @@ Jalankan test dengan:
 
 ```bash
 pnpm test:run
-```
+````
 
 Saat ini terdapat **51 automated tests**.
 
