@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "vitest",
-    "test:run": "vnpx vitest run --reporter=verbose",
+    "test:run": "vitest run --reporter=verbose",
     "validate:html": "vnu --errors-only --Werror index.html",
     "check": "pnpm test:run && pnpm validate:html"
   },
